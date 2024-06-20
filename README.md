@@ -234,6 +234,12 @@ f.SetCompressionLevel(4);
 ## how to install weaver
 
 ```bash
+
+git  clone git@github.com:zyt1024/weaver-core.git 
+# 切换到虚拟环境
 conda activate weaver
+# 切换到源代码目录
+cd /home/atzyt/envs/weaver-core
+# 执行安装
 /usr/local/anaconda3/envs/weaver/bin/pip install -e .
 ```
